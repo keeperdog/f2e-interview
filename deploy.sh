@@ -13,10 +13,10 @@ cd docs/dist
 # echo 'www.yourwebsite.com' > CNAME
 
 git init
+git remote add origin https://github.com/keeperdog/keeperdog.github.io.git
 git add -A
 git commit -m 'deploy'
 yarn config set "strict-ssl" false
-git remote add origin https://github.com/keeperdog/keeperdog.github.io.git
 
 # git config pull.rebase true
 # git pull https://github.com/keeperdog/keeperdog.github.io.git main
