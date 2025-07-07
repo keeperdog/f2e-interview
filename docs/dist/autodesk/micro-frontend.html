@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Qiankun | keeperdog</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="keeperdog">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.6e54da3e.css" as="style"><link rel="preload" href="/assets/js/app.974bbb8d.js" as="script"><link rel="preload" href="/assets/js/2.a0983b4d.js" as="script"><link rel="preload" href="/assets/js/1.ec3ba048.js" as="script"><link rel="preload" href="/assets/js/14.69ac9b86.js" as="script"><link rel="prefetch" href="/assets/js/10.c2f836cd.js"><link rel="prefetch" href="/assets/js/11.45dd6661.js"><link rel="prefetch" href="/assets/js/12.2c2e0bbb.js"><link rel="prefetch" href="/assets/js/13.75924d47.js"><link rel="prefetch" href="/assets/js/15.280195f1.js"><link rel="prefetch" href="/assets/js/16.27ff3a1d.js"><link rel="prefetch" href="/assets/js/17.b9ad93c4.js"><link rel="prefetch" href="/assets/js/18.ab45ad03.js"><link rel="prefetch" href="/assets/js/19.446cf319.js"><link rel="prefetch" href="/assets/js/20.27ef86b3.js"><link rel="prefetch" href="/assets/js/21.c7b8d009.js"><link rel="prefetch" href="/assets/js/22.3cb23d4e.js"><link rel="prefetch" href="/assets/js/23.5e36e4c3.js"><link rel="prefetch" href="/assets/js/24.91d6cdad.js"><link rel="prefetch" href="/assets/js/25.82d4c83e.js"><link rel="prefetch" href="/assets/js/26.e4e4f000.js"><link rel="prefetch" href="/assets/js/27.23dce2dd.js"><link rel="prefetch" href="/assets/js/28.85912059.js"><link rel="prefetch" href="/assets/js/29.f35b217a.js"><link rel="prefetch" href="/assets/js/3.79a06bd8.js"><link rel="prefetch" href="/assets/js/30.d3608d42.js"><link rel="prefetch" href="/assets/js/31.7988d442.js"><link rel="prefetch" href="/assets/js/32.8ff52c9d.js"><link rel="prefetch" href="/assets/js/33.ab5cc126.js"><link rel="prefetch" href="/assets/js/34.8f3db14e.js"><link rel="prefetch" href="/assets/js/35.c8c13bb5.js"><link rel="prefetch" href="/assets/js/36.692f41f8.js"><link rel="prefetch" href="/assets/js/37.37b40415.js"><link rel="prefetch" href="/assets/js/38.2be94beb.js"><link rel="prefetch" href="/assets/js/39.ad169504.js"><link rel="prefetch" href="/assets/js/4.de259293.js"><link rel="prefetch" href="/assets/js/40.bd2f19c7.js"><link rel="prefetch" href="/assets/js/41.6aa64b1f.js"><link rel="prefetch" href="/assets/js/5.e5d4d55d.js"><link rel="prefetch" href="/assets/js/6.dc0f9807.js"><link rel="prefetch" href="/assets/js/7.96a35a8f.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.283a746b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6e54da3e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/2.jpeg" alt="keeperdog" class="logo"> <span class="site-name can-hide">keeperdog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Frontend
+</a></div><div class="nav-item"><a href="/autodesk/" class="nav-link router-link-active">
+  Speech
+</a></div><div class="nav-item"><a href="/profile/" class="nav-link">
+  Profile
+</a></div><div class="nav-item"><a href="/llm/" class="nav-link">
+  LLM
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Frontend
+</a></div><div class="nav-item"><a href="/autodesk/" class="nav-link router-link-active">
+  Speech
+</a></div><div class="nav-item"><a href="/profile/" class="nav-link">
+  Profile
+</a></div><div class="nav-item"><a href="/llm/" class="nav-link">
+  LLM
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Qiankun</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/autodesk/micro-frontend.html" aria-current="page" class="active sidebar-link">Qiankun</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#introduction-what-is-qiankun" class="sidebar-link">Introduction - What is qiankun?</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#what-is-micro-frontend" class="sidebar-link">What is Micro FrontEnd?</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#core-design-philosophy-of-qiankun" class="sidebar-link">Core Design Philosophy Of Qiankun</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#what-are-some-of-the-features-of-qiankun" class="sidebar-link">What are some of the features of Qiankun</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#project-practise" class="sidebar-link">Project Practise</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#main-application-environment-construction" class="sidebar-link">Main application environment construction</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#create-the-corresponding-micro-application" class="sidebar-link">Create the corresponding micro application</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#communication-mechanism-between-sub-applications" class="sidebar-link">Communication mechanism between sub-applications</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#summary" class="sidebar-link">Summary</a></li><li class="sidebar-sub-header"><a href="/autodesk/micro-frontend.html#source-code" class="sidebar-link">Source Code</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="qiankun"><a href="#qiankun" class="header-anchor">#</a> Qiankun</h1> <h2 id="introduction-what-is-qiankun"><a href="#introduction-what-is-qiankun" class="header-anchor">#</a> Introduction - What is qiankun?</h2> <p>Qiankun is one of an implementation of Micro Frontends, which based on <a href="https://github.com/CanopyTax/single-spa" target="_blank" rel="noopener noreferrer">single-spa<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. It aims to make it easier and painless to build a production-ready micro frontend architecture system.</p> <p>Qiankun hatched from Ant Financial’s unified frontend platform for cloud products based on micro frontends architecture. After full testing and polishing of a number of online applications, Ant f2e team extracted its micro frontend kernel and open sourced it. The f2e team hope to help the systems who has the same requirement more convenient to build its own micro frontends application in the community. At the same time, with the help of community, qiankun will be polished and improved.</p> <p>At present, qiankun has served more than 200 online applications inside Ant, and it's definitely trustworthy in terms of ease of use and completeness.</p> <h2 id="what-is-micro-frontend"><a href="#what-is-micro-frontend" class="header-anchor">#</a> What is Micro FrontEnd?</h2> <p>It's a techniques, strategies and recipes for building a modern web app with multiple teams that can ship features independently.</p> <p>The current popular micro-frontend solutions include the following:：</p> <ul><li>iframe</li> <li>The pedestal mode, mainly based on route distribution, qiankun and single-spa are based on this mode</li> <li>Npm packages, That is, build components separately and load them on demand</li> <li>EMP，based on Webpack5 Module Federation</li> <li>Web Components</li></ul> <p>Micro Frontend's architecture has the following core values:</p> <ul><li><p>Technology Agnostic</p> <blockquote><p>The main framework does not restrict access to the technology stack of the application, and the sub-applications have full autonomy.</p></blockquote></li> <li><p>Independent Development and Deployment</p> <blockquote><p>The sub application repo is independent, and the frontend and backend can be independently developed. After deployment, the main framework can be updated automatically.</p></blockquote></li> <li><p>Incremental Upgrade</p> <blockquote><p>In the face of various complex scenarios, it is often difficult for us to upgrade or refactor the entire technology stack of an existing system. Micro frontend is a very good method and strategy for implementing progressive refactoring.</p></blockquote></li> <li><p>Isolated Runtime</p> <blockquote><p>State is isolated between each sub application and no shared runtime state.</p></blockquote></li></ul> <p>The micro frontends architecture is designed to solve a single application in a relatively long time span. As a result of the increase in the number of people and teams involved, it has evolved from a common small application to a monolithic application then becomes unmaintainable. Such a problem is especially common in enterprise web applications.</p> <h2 id="core-design-philosophy-of-qiankun"><a href="#core-design-philosophy-of-qiankun" class="header-anchor">#</a> Core Design Philosophy Of Qiankun</h2> <ul><li><p>Simple</p> <blockquote><p>Since the main application and sub-applications can be independent of the technology stack, qiankun is just a jQuery-like library for users. You need to call several qiankun APIs to complete the micro frontends transformation of your application. At the same time, due to the design of qiankun's HTML entry and sandbox, accessing sub-applications is almost as simple as using an iframe.</p></blockquote></li> <li><p>Decoupling/Technology Agnostic</p> <blockquote><p>As the core goal of the micro frontends is to disassemble the monolithic application into a number of loosely coupled micro applications that can be autonomous, all the designs of qiankun are follow this principle, such as HTML Entry, sandbox, and communicating mechanism between applications. Only in this way we can ensure that sub-applications truly have the ability to develop and run independently.</p></blockquote></li></ul> <h2 id="what-are-some-of-the-features-of-qiankun"><a href="#what-are-some-of-the-features-of-qiankun" class="header-anchor">#</a> What are some of the features of Qiankun</h2> <ul><li>Based On <a href="https://github.com/CanopyTax/single-spa" target="_blank" rel="noopener noreferrer">single-spa<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> , provide more out-of-box APIs.</li> <li>Technology Agnostic，any javascript framework can use/integrate, whether React/Vue/Angular/JQuery or the others.</li> <li>HTML Entry access mode, allows you to access the son as simple application like use the iframe.</li> <li>Style Isolation, make sure styles don't interfere with each other.</li> <li>JS Sandbox, ensure that global variables/events do not conflict between sub-applications.</li> <li>Prefetch Assets, prefetch unopened sub-application assets during the browser idle time to speed up the sub-application opening speed.</li> <li>Umi Plugin, @umijs/plugin-qiankun is provided for umi applications to switch to a micro frontends architecture system with only one line code.</li></ul> <h2 id="project-practise"><a href="#project-practise" class="header-anchor">#</a> Project Practise</h2> <blockquote><p>This article is suitable for newcomers to qiankun, and introduces how to build a qiankun project from 0. The project mainly consists of:</p></blockquote> <ul><li><p><strong>main application：</strong></p> <ul><li>Using umi3.5, not using <a href="https://github.com/umijs/plugins/tree/master/packages/plugin-qiankun" target="_blank" rel="noopener noreferrer">@umijs/plugin-qiankun<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，but using <a href="https://qiankun.umijs.org/zh/guide/getting-started" target="_blank" rel="noopener noreferrer">qiankun<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> directly</li></ul></li> <li><p><strong>vue sub application：</strong></p> <ul><li>Created with vue2.x</li> <li>Using vue3.x, not built with vite yet, at present, vite mode is not compatible</li></ul></li> <li><p><strong>react sub application：</strong></p> <ul><li>Created with create-react-app</li></ul></li> <li><p><strong>umi3 sub application:</strong></p> <ul><li>Use umi3, Combine <a href="https://github.com/umijs/plugins/tree/master/packages/plugin-qiankun" target="_blank" rel="noopener noreferrer">@umijs/plugin-qiankun<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>plugin</li></ul></li> <li><p><strong>Micro apps built without webpack：</strong></p> <ul><li>Some non-webpack-built projects, such as jQuery projects, can follow this.</li></ul></li> <li><p><strong>Angular Microapps：</strong></p> <ul><li>Version of @angular/cli@9.1.12 used</li></ul></li></ul> <h2 id="main-application-environment-construction"><a href="#main-application-environment-construction" class="header-anchor">#</a> Main application environment construction</h2> <blockquote><p>According to the official statement, the main application is not limited to the technology stack. It only needs to provide a container DOM, and then register the micro application and start it. Here we use umi to initialize.</p></blockquote> <h3 id="initialize-install-qiankun"><a href="#initialize-install-qiankun" class="header-anchor">#</a> Initialize &amp; install qiankun</h3> <div class="language-bash extra-class"><pre class="language-bash"><code>  <span class="token comment"># Project initialization</span>
+  $ <span class="token function">yarn</span> create @umijs/umi-app
+  <span class="token comment"># Install dependencies</span>
+  $ <span class="token function">yarn</span>
+  <span class="token comment"># start up</span>
+  $ <span class="token function">yarn</span> start
+  <span class="token comment"># Install qiankun</span>
+  $ <span class="token function">yarn</span> <span class="token function">add</span> qiankun
+</code></pre></div><blockquote><p>The basic environment is completed, and some menus and routes are added to the main application for switching between the main application page and the main application and the micro application. The page layout and routing configuration will not be introduced too much here, and the source code will be provided at the end of the article. The general page is as follows:</p></blockquote> <p><img src="/assets/img/2022-05-15-19-57-12.7559eff4.png" alt="主页"></p> <h3 id="register-the-micro-application-in-the-main-application"><a href="#register-the-micro-application-in-the-main-application" class="header-anchor">#</a> Register the micro application in the main application</h3> <blockquote><p>Register the basic configuration information of the micro-app. When the browser url changes, the activeRule rules registered by each micro-app will be automatically checked, and the applications that meet the rules will be automatically activated. This example consists of one main application and six micro-applications. The configuration files of the micro-applications are added to the main application, and the registered micro-applications are managed separately.</p></blockquote> <h3 id="注册微应用基本配置"><a href="#注册微应用基本配置" class="header-anchor">#</a> 注册微应用基本配置</h3> <blockquote><p>Add registerMicroAppsConfig.ts under the src folder of the main application, the contents are as follows:：</p></blockquote> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token function-variable function">loader</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">loading</span><span class="token operator">:</span> boolean</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Here you can get whether the sub-application is loaded successfully,  which can be used to trigger the global loading</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;loading&quot;</span><span class="token punctuation">,</span> loading<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> Microconfig <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token comment">//name: the name of the microapp,</span>
+  <span class="token comment">//entry: The entrance to the micro application,</span>
+  <span class="token comment">//container: A selector or Element instance for the microapp's container node,</span>
+  <span class="token comment">//activeRule: Activate the micro-app's rule (which can be matched to the micro-app's route),</span>
+  <span class="token comment">//loader: state of loading the microapp type is funciton return true | false,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;vue2&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">&quot;http://localhost:8001&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">container</span><span class="token operator">:</span> <span class="token string">&quot;#subContainer&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">activeRule</span><span class="token operator">:</span> <span class="token string">&quot;/vue2&quot;</span><span class="token punctuation">,</span>
+    loader<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;vue3&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">&quot;http://localhost:8002&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">container</span><span class="token operator">:</span> <span class="token string">&quot;#subContainer&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">activeRule</span><span class="token operator">:</span> <span class="token string">&quot;/vue3&quot;</span><span class="token punctuation">,</span>
+    loader<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">&quot;http://localhost:8003&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">container</span><span class="token operator">:</span> <span class="token string">&quot;#subContainer&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">activeRule</span><span class="token operator">:</span> <span class="token string">&quot;/react&quot;</span><span class="token punctuation">,</span>
+    loader<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;umi&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">&quot;http://localhost:8004&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">container</span><span class="token operator">:</span> <span class="token string">&quot;#subContainer&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">activeRule</span><span class="token operator">:</span> <span class="token string">&quot;/umi&quot;</span><span class="token punctuation">,</span>
+    loader<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;purehtml&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">&quot;http://127.0.0.1:8005&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">container</span><span class="token operator">:</span> <span class="token string">&quot;#subContainer&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">activeRule</span><span class="token operator">:</span> <span class="token string">&quot;/purehtml&quot;</span><span class="token punctuation">,</span>
+    loader<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">//angular</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;angular&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">&quot;http://127.0.0.1:8006&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">container</span><span class="token operator">:</span> <span class="token string">&quot;#subContainer&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">activeRule</span><span class="token operator">:</span> <span class="token string">&quot;/angular&quot;</span><span class="token punctuation">,</span>
+    loader<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>The main application entry file imported registerMicroAppsConfig.ts and qiankun (if the main application uses umi, it is directly imported in pages/index.tsx)</p></blockquote> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> LayoutPage <span class="token keyword">from</span> <span class="token string">&quot;@/layout/index&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;zone.js/dist/zone&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span>
+  registerMicroApps<span class="token punctuation">,</span>
+  start<span class="token punctuation">,</span>
+  setDefaultMountApp<span class="token punctuation">,</span>
+  addGlobalUncaughtErrorHandler<span class="token punctuation">,</span>
+  initGlobalState<span class="token punctuation">,</span>
+  MicroAppStateActions<span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;qiankun&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Microconfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@/registerMicroAppsConfig&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * Register a Microapp
+ */</span>
+<span class="token function">registerMicroApps</span><span class="token punctuation">(</span>Microconfig<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  <span class="token comment">// qiankun Lifecycle Hooks - Before Microapps Load</span>
+  <span class="token function-variable function">beforeLoad</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">app</span><span class="token operator">:</span> any</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;before load&quot;</span><span class="token punctuation">,</span> app<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// qiankun Lifecycle hooks - after the microapp is mounted</span>
+  <span class="token function-variable function">afterMount</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">app</span><span class="token operator">:</span> any</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;after mount&quot;</span><span class="token punctuation">,</span> app<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * start qiankun
+ */</span>
+<span class="token comment">// start();</span>
+<span class="token comment">// There are many other configuration Options</span>
+<span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">prefetch</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// enable preload</span>
+  <span class="token literal-property property">sandbox</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">experimentalStyleIsolation</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//   optional, whether to open the js sandbox, default is true.</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * Set the micro-app that is entered by default after the main application is started
+ * ActiveRule corresponding to the sub-application
+ */</span>
+<span class="token comment">// setDefaultMountApp('/purehtml');</span>
+
+<span class="token comment">// Add global exception catch</span>
+<span class="token function">addGlobalUncaughtErrorHandler</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">handler</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;exception catch ====&quot;</span><span class="token punctuation">,</span> handler<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// global state</span>
+<span class="token keyword">const</span> state <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">&quot;main_application&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token literal-property property">actions</span><span class="token operator">:</span> MicroAppStateActions <span class="token operator">=</span> <span class="token function">initGlobalState</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+actions<span class="token punctuation">.</span><span class="token function">onGlobalStateChange</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">state<span class="token punctuation">,</span> prev</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// state: the state after the change; prev the state before the change</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;state====&quot;</span><span class="token punctuation">,</span> state<span class="token punctuation">,</span> <span class="token string">&quot;prev====&quot;</span><span class="token punctuation">,</span> prev<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+actions<span class="token punctuation">.</span><span class="token function">setGlobalState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">&quot;main_app&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">IndexPage</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> children <span class="token punctuation">}</span><span class="token operator">:</span> any</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>LayoutPage<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span><span class="token punctuation">{</span>children<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>div id<span class="token operator">=</span><span class="token string">&quot;subContainer&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>LayoutPage<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="create-the-corresponding-micro-application"><a href="#create-the-corresponding-micro-application" class="header-anchor">#</a> Create the corresponding micro application</h2> <blockquote><p>Note that the name of the micro application <code>package.json</code> =&gt; <code>name</code> needs to correspond to the <code>name</code> registered in the main application, and must be unique。</p></blockquote> <h3 id="micro-application-vue2-x"><a href="#micro-application-vue2-x" class="header-anchor">#</a> Micro application vue2.x</h3> <h4 id="initialization"><a href="#initialization" class="header-anchor">#</a> initialization</h4> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># install vueCli</span>
+$ <span class="token function">yarn</span> <span class="token function">add</span> @vue/cli
+<span class="token comment"># create project</span>
+$ vue create vue2.x_root
+<span class="token comment"># Select vue2 version</span>
+<span class="token comment"># Install dependencies</span>
+$ <span class="token function">yarn</span>
+<span class="token comment"># start</span>
+$ <span class="token function">yarn</span> serve
+</code></pre></div><h4 id="transform-into-a-micro-app"><a href="#transform-into-a-micro-app" class="header-anchor">#</a> Transform into a micro-app</h4> <ol><li>Add <code>public-path.js</code> to the <code>src</code> directory:</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  __webpack_public_path__ <span class="token operator">=</span> window<span class="token punctuation">.</span>__INJECTED_PUBLIC_PATH_BY_QIANKUN__<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>Entry file <code>main.js</code> modification</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token string">&quot;./public-path&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">&quot;vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">&quot;./App.vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> VueRouter <span class="token keyword">from</span> <span class="token string">&quot;vue-router&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> routes <span class="token keyword">from</span> <span class="token string">&quot;./router&quot;</span><span class="token punctuation">;</span>
+
+Vue<span class="token punctuation">.</span>config<span class="token punctuation">.</span>productionTip <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+
+<span class="token keyword">let</span> router <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> instance <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token parameter">props <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> container <span class="token punctuation">}</span> <span class="token operator">=</span> props<span class="token punctuation">;</span>
+  router <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">VueRouter</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">// Pay attention to the name here, it is best not to write it to hard code, directly use the name passed by the main application</span>
+    <span class="token literal-property property">base</span><span class="token operator">:</span> window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__ <span class="token operator">?</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span> <span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">&quot;history&quot;</span><span class="token punctuation">,</span>
+    routes<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>VueRouter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  instance <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    router<span class="token punctuation">,</span>
+    <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">h</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">h</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">$mount</span><span class="token punctuation">(</span>container <span class="token operator">?</span> container<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">&quot;#app&quot;</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// When running independently</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">bootstrap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;[vue2] vue app bootstraped&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">unmount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  instance<span class="token punctuation">.</span><span class="token function">$destroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  instance<span class="token punctuation">.</span>$el<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+  instance <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+  router <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>打包配置修改（<code>vue.config.js</code>）：</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;path&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> name <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./package&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token parameter">dir</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> dir<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">filenameHashing</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">lintOnSave</span><span class="token operator">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE</span> <span class="token operator">*</span> <span class="token constant">ENV</span> <span class="token operator">!==</span> <span class="token string">&quot;production&quot;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">runtimeCompiler</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">productionSourceMap</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">devServer</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">hot</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">disableHostCheck</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// Modify the default port, the same as the registration</span>
+    <span class="token literal-property property">port</span><span class="token operator">:</span> <span class="token number">8001</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">overlay</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">warnings</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// Solve the cross-domain problem when the main application loads sub-applications</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;Access-Control-Allow-Origin&quot;</span><span class="token operator">:</span> <span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// Custom webpack configuration</span>
+  <span class="token literal-property property">configureWebpack</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">resolve</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">alias</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;@&quot;</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">&quot;src&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">library</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">-[name]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+      <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">&quot;umd&quot;</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">jsonpFunction</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">webpackJsonp*</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="4"><li>View the loading effect of the main application</li></ol> <p><img src="/assets/img/2022-05-15-23-14-00.f6938ade.png" alt="vue2"></p> <h3 id="micro-application-vue3-x"><a href="#micro-application-vue3-x" class="header-anchor">#</a> Micro application vue3.x</h3> <h4 id="initialization-about-the-same-operation-as-above"><a href="#initialization-about-the-same-operation-as-above" class="header-anchor">#</a> initialization，About the same operation as above</h4> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">yarn</span> <span class="token function">add</span> @vue/cli
+<span class="token comment"># create project</span>
+$ vue create vue3.x_root
+<span class="token comment"># Select vue3 version</span>
+<span class="token comment"># Install dependencies</span>
+$ <span class="token function">yarn</span>
+<span class="token comment"># start</span>
+$ <span class="token function">yarn</span> serve
+</code></pre></div><h4 id="transform-into-a-micro-app-2"><a href="#transform-into-a-micro-app-2" class="header-anchor">#</a> Transform into a micro-app</h4> <ol><li>Add <code>public-path.js</code> to the <code>src</code> directory:</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  __webpack_public_path__ <span class="token operator">=</span> window<span class="token punctuation">.</span>__INJECTED_PUBLIC_PATH_BY_QIANKUN__<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>Entry file main.ts modification</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">//@ts-nocheck</span>
+<span class="token keyword">import</span> <span class="token string">&quot;./public-path&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> createApp <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> createRouter<span class="token punctuation">,</span> createWebHistory <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vue-router&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">&quot;./App.vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> routes <span class="token keyword">from</span> <span class="token string">&quot;./router&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> store <span class="token keyword">from</span> <span class="token string">&quot;./store&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">let</span> router <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> instance <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> history <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token parameter">props <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> container <span class="token punctuation">}</span> <span class="token operator">=</span> props<span class="token punctuation">;</span>
+  history <span class="token operator">=</span> <span class="token function">createWebHistory</span><span class="token punctuation">(</span>
+    window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__ <span class="token operator">?</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span> <span class="token operator">:</span> <span class="token string">&quot;/&quot;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  router <span class="token operator">=</span> <span class="token function">createRouter</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    history<span class="token punctuation">,</span>
+    routes<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  instance <span class="token operator">=</span> <span class="token function">createApp</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  instance<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>router<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  instance<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>store<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  instance<span class="token punctuation">.</span><span class="token function">mount</span><span class="token punctuation">(</span>container <span class="token operator">?</span> container<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">&quot;#app&quot;</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">bootstrap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;%c &quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;color: green;&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;vue3.0 app bootstraped&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">unmount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  instance<span class="token punctuation">.</span><span class="token function">unmount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  instance<span class="token punctuation">.</span>_container<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+  instance <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+  router <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+  history<span class="token punctuation">.</span><span class="token function">destroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>Package configuration modification (<code>vue.config.js</code>)</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;path&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> name <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./package&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token parameter">dir</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> dir<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">filenameHashing</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">lintOnSave</span><span class="token operator">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">!==</span> <span class="token string">&quot;production&quot;</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">runtimeCompiler</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">productionSourceMap</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">devServer</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">hot</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">disableHostCheck</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// Modify the default port, the same as when registering</span>
+    <span class="token literal-property property">port</span><span class="token operator">:</span> <span class="token number">8002</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">overlay</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">warnings</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">errors</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;Access-Control-Allow-Origin&quot;</span><span class="token operator">:</span> <span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// Custom webpack configuration</span>
+  <span class="token literal-property property">configureWebpack</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">resolve</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">alias</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;@&quot;</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">&quot;src&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">library</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">-[name]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+      <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">&quot;umd&quot;</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">jsonpFunction</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">webpackJsonp_</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="4"><li>View the loading effect of the main application</li></ol> <p><img src="/assets/img/2022-05-15-23-28-22.413c2c79.png" alt="vue3"></p> <h3 id="micro-application-react"><a href="#micro-application-react" class="header-anchor">#</a> Micro application react</h3> <h4 id="initialization-2"><a href="#initialization-2" class="header-anchor">#</a> initialization</h4> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># Create project</span>
+$ <span class="token function">yarn</span> <span class="token function">add</span> create-react-app react_root
+<span class="token comment"># start</span>
+$ <span class="token function">yarn</span> start
+</code></pre></div><h4 id="transform-into-a-micro-app-3"><a href="#transform-into-a-micro-app-3" class="header-anchor">#</a> Transform into a micro-app</h4> <ol><li>Add <code>public-path.js</code> to <code>src</code> directory：</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  __webpack_public_path__ <span class="token operator">=</span> window<span class="token punctuation">.</span>__INJECTED_PUBLIC_PATH_BY_QIANKUN__<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>Set the base for history mode routes:
+<blockquote><p>The project just created has no routing, so first install routing</p></blockquote></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># Routing installation</span>
+$ <span class="token function">yarn</span> <span class="token function">add</span> react-router react-router-dom
+</code></pre></div><blockquote><p>The entry file index.js is modified, in order to avoid the root id #root conflict with other DOM, it is necessary to limit the search range.</p></blockquote> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token string">&quot;./public-path&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> ReactDOM <span class="token keyword">from</span> <span class="token string">&quot;react-dom&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">&quot;./App&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> BrowserRouter<span class="token punctuation">,</span> Route<span class="token punctuation">,</span> Link <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> container <span class="token punctuation">}</span> <span class="token operator">=</span> props<span class="token punctuation">;</span>
+  ReactDOM<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>BrowserRouter basename<span class="token operator">=</span><span class="token punctuation">{</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__ <span class="token operator">?</span> <span class="token string">&quot;/react&quot;</span> <span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>BrowserRouter<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+    container
+      <span class="token operator">?</span> container<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">&quot;#root&quot;</span><span class="token punctuation">)</span>
+      <span class="token operator">:</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">&quot;#root&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">bootstrap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;[react17] react app bootstraped&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;[react17] props from main framework&quot;</span><span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">render</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">unmount</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> container <span class="token punctuation">}</span> <span class="token operator">=</span> props<span class="token punctuation">;</span>
+  ReactDOM<span class="token punctuation">.</span><span class="token function">unmountComponentAtNode</span><span class="token punctuation">(</span>
+    container
+      <span class="token operator">?</span> container<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">&quot;#root&quot;</span><span class="token punctuation">)</span>
+      <span class="token operator">:</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">&quot;#root&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>webpack packaging configuration modification
+<blockquote><p>Install the plugin @rescripts/cli, of course you can also choose other plugins, such as react-app-rewired</p></blockquote></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># install</span>
+$ <span class="token function">yarn</span> <span class="token function">add</span> @rescripts/cli
+</code></pre></div><blockquote><p>Add the configuration file <code>.rescriptsrc.js</code> to the root directory, note that it must be in the root directory</p></blockquote> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> name <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./package&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">webpack</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">config</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    config<span class="token punctuation">.</span>output<span class="token punctuation">.</span>library <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">-[name]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+    config<span class="token punctuation">.</span>output<span class="token punctuation">.</span>libraryTarget <span class="token operator">=</span> <span class="token string">&quot;umd&quot;</span><span class="token punctuation">;</span>
+    config<span class="token punctuation">.</span>output<span class="token punctuation">.</span>jsonpFunction <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">webpackJsonp_</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+    config<span class="token punctuation">.</span>output<span class="token punctuation">.</span>globalObject <span class="token operator">=</span> <span class="token string">&quot;window&quot;</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">return</span> config<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function-variable function">devServer</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">_</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> config <span class="token operator">=</span> _<span class="token punctuation">;</span>
+
+    config<span class="token punctuation">.</span>headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;Access-Control-Allow-Origin&quot;</span><span class="token operator">:</span> <span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    config<span class="token punctuation">.</span>historyApiFallback <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    config<span class="token punctuation">.</span>hot <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    config<span class="token punctuation">.</span>watchContentBase <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    config<span class="token punctuation">.</span>liveReload <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">return</span> config<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="4"><li><code>package.json</code>Configuration modification</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string-property property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;react_root&quot;</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;version&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.1.0&quot;</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;private&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;dependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;@rescripts/cli&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^0.0.16&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;@testing-library/jest-dom&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^5.11.4&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;@testing-library/react&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^11.1.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;@testing-library/user-event&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^12.1.10&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;react&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^17.0.2&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;react-dom&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^17.0.2&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;react-router-dom&quot;</span><span class="token operator">:</span> <span class="token string">&quot;5.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;react-scripts&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4.0.3&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;web-vitals&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^1.0.1&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;start&quot;</span><span class="token operator">:</span> <span class="token string">&quot;PORT=8003 rescripts start&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;rescripts  build&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;rescripts  test&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;eject&quot;</span><span class="token operator">:</span> <span class="token string">&quot;rescripts  eject&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;eslintConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;extends&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&quot;react-app&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;react-app/jest&quot;</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;browserslist&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;production&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&quot;&gt;0.2%&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;not dead&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;not op_mini all&quot;</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;development&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&quot;last 1 chrome version&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;last 1 firefox version&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;last 1 safari version&quot;</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><ol start="5"><li>View the loading effect of the main application</li></ol> <p><img src="/assets/img/2022-05-15-23-41-05.b40c5f75.png" alt="react"></p> <h3 id="micro-application-umi"><a href="#micro-application-umi" class="header-anchor">#</a> Micro application umi</h3> <blockquote><p>For the initialization method of the umi project, refer to the method of initializing the main application. umi applications use <code>@umijs/plugin-qiankun</code> to enable micro-frontend mode with one click.</p></blockquote> <h4 id="how-to-enable"><a href="#how-to-enable" class="header-anchor">#</a> How to enable</h4> <ol><li>Install the plugin</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># install @umijs/plugin-qiankun</span>
+$ <span class="token function">yarn</span> <span class="token function">add</span> @umijs/plugin-qiankun
+</code></pre></div><ol start="2"><li>Modify the configuration file <code>umirc.ts</code> <blockquote><p>If the configuration file is extracted into <code>config</code>, directly modify <code>config.js</code></p></blockquote></li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;umi&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">nodeModulesTransform</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token string">&quot;none&quot;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">routes</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">component</span><span class="token operator">:</span> <span class="token string">&quot;@/pages/index&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">fastRefresh</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// Enable qiankun configuration</span>
+  <span class="token literal-property property">qiankun</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">slave</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>Here is just a simple integration configuration, for more functions, please refer to<a href="https://umijs.org/zh-CN/plugins/plugin-qiankun" target="_blank" rel="noopener noreferrer">@umijs/plugin-qiankun<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></blockquote> <ol start="3"><li>loading effect</li></ol> <p><img src="/assets/img/2022-05-15-23-46-42.25a91807.png" alt="umi"></p> <h3 id="microapps-non-webpack-apps"><a href="#microapps-non-webpack-apps" class="header-anchor">#</a> Microapps non-webpack apps</h3> <blockquote><p>There is a point to note for non-webpack applications: Before accessing, please make sure that the resources such as pictures, audio and video in your project can be loaded normally. If the addresses of these resources are full paths (for example, <a href="https://qiankun.umijs.org/logo.png" target="_blank" rel="noopener noreferrer">https://qiankun.umijs.org/logo.png<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>), no problem. If they are all relative paths, you need to upload these resources to the server first and use the full path.</p></blockquote> <ol><li>entry file declaration <code>entry</code> entry</li></ol> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>test<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Test Microapps<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- entry  --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>./index.js<span class="token punctuation">&quot;</span></span> <span class="token attr-name">entry</span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><ol start="2"><li>index.js</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token function-variable function">render</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">$</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// $('#test').html('Hello, render with jQuery');</span>
+  <span class="token comment">// What can be done todo here before rendering...</span>
+  <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">global</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">//purehtml is the corresponding micro-app name</span>
+  global<span class="token punctuation">[</span><span class="token string">&quot;purehtml&quot;</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">bootstrap</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;purehtml bootstrap&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">mount</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;purehtml mount00000000000&quot;</span><span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      props<span class="token punctuation">.</span><span class="token function">onGlobalStateChange</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">state<span class="token punctuation">,</span> prev</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>state<span class="token punctuation">,</span> prev<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token function">render</span><span class="token punctuation">(</span>$<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">unmount</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;purehtml unmount&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span>window<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="3"><li>Convenient to startup and loading, use <code>http-server</code> to start the local service
+<blockquote><p>Add <code>package.json</code> file to the root directory, note <code>name</code>: <code>purehtml</code></p></blockquote></li></ol> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;purehtml&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;version&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.0.0&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;description&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;main&quot;</span><span class="token operator">:</span> <span class="token string">&quot;index.html&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;start&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env PORT=8005 http-server . --cors&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;license&quot;</span><span class="token operator">:</span> <span class="token string">&quot;MIT&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;devDependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;cross-env&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^7.0.2&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;http-server&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^0.12.1&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="4"><li>loading effect</li></ol> <p><img src="/assets/img/2022-05-15-23-58-52.9c9e7815.png" alt="purehtml"></p> <h3 id="micro-application-angular"><a href="#micro-application-angular" class="header-anchor">#</a> Micro application Angular</h3> <h4 id="initialization-3"><a href="#initialization-3" class="header-anchor">#</a> initialization</h4> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># install CLI</span>
+$ <span class="token function">yarn</span> <span class="token function">add</span> <span class="token parameter variable">-g</span> @angular/cli@9.1.12
+<span class="token comment"># create project</span>
+$ ng new angular_root
+<span class="token comment"># start</span>
+$ ng serve
+</code></pre></div><h4 id="transform-into-a-micro-app-4"><a href="#transform-into-a-micro-app-4" class="header-anchor">#</a> Transform into a micro-app</h4> <p>1.Add <code>public-path.js</code> to the <code>src</code> directory:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// eslint-disable-next-line no-undef</span>
+  __webpack_public_path__ <span class="token operator">=</span> window<span class="token punctuation">.</span>__INJECTED_PUBLIC_PATH_BY_QIANKUN__<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>Set the base of history mode routing, <code>src/app/app-routing.module.ts</code> file:</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> NgModule <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@angular/core&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Routes<span class="token punctuation">,</span> RouterModule <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@angular/router&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> <span class="token constant">APP_BASE_HREF</span> <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@angular/common&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token literal-property property">routes</span><span class="token operator">:</span> Routes <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+@<span class="token function">NgModule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">imports</span><span class="token operator">:</span> <span class="token punctuation">[</span>RouterModule<span class="token punctuation">.</span><span class="token function">forRoot</span><span class="token punctuation">(</span>routes<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">exports</span><span class="token operator">:</span> <span class="token punctuation">[</span>RouterModule<span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token comment">// @ts-ignore</span>
+  <span class="token literal-property property">providers</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token literal-property property">provide</span><span class="token operator">:</span> <span class="token constant">APP_BASE_HREF</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">useValue</span><span class="token operator">:</span> window<span class="token punctuation">.</span>__POWERED_BY_QIANKUN__ <span class="token operator">?</span> <span class="token string">&quot;/angular&quot;</span> <span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">AppRoutingModule</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>Modify the entry file, src/main.ts file</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token string">'./public-path'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> enableProdMode<span class="token punctuation">,</span> NgModuleRef <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/core'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> platformBrowserDynamic <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/platform-browser-dynamic'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> AppModule <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./app/app.module'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> environment <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./environments/environment'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>environment<span class="token punctuation">.</span>production<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">enableProdMode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> <span class="token literal-property property">app</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token operator">|</span> NgModuleRef<span class="token operator">&lt;</span>AppModule<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  app <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">platformBrowserDynamic</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">bootstrapModule</span><span class="token punctuation">(</span>AppModule<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">err</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">(</span>window <span class="token keyword">as</span> any<span class="token punctuation">)</span><span class="token punctuation">.</span>__POWERED_BY_QIANKUN__<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">bootstrap</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">props</span><span class="token operator">:</span> Object</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">props</span><span class="token operator">:</span> Object</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">unmount</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">props</span><span class="token operator">:</span> Object</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// @ts-ignore</span>
+  app<span class="token punctuation">.</span><span class="token function">destroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="4"><li>Modify webpack packaging configuration
+<blockquote><p>According to the official instructions: first install <code>@angular-builders/custom-webpack</code> , note: angular 9 projects can only install 9.x version, angular 10 projects can install the latest version.</p></blockquote></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> @angular-builders/custom-webpack@9.2.0
+</code></pre></div><blockquote><p>Add <code>custom-webpack.config.js</code> to the root directory</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> appName <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./package.json&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span>name<span class="token punctuation">;</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">devServer</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;Access-Control-Allow-Origin&quot;</span><span class="token operator">:</span> <span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">library</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>appName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">-[name]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+    <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">&quot;umd&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">jsonpFunction</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">webpackJsonp_</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>appName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>Modify the angular.json configuration file</p></blockquote> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;$schema&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./node_modules/@angular/cli/lib/config/schema.json&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;version&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;newProjectRoot&quot;</span><span class="token operator">:</span> <span class="token string">&quot;projects&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;projects&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;angularRoot&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">&quot;projectType&quot;</span><span class="token operator">:</span> <span class="token string">&quot;application&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;schematics&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;@schematics/angular:component&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">&quot;style&quot;</span><span class="token operator">:</span> <span class="token string">&quot;scss&quot;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;root&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;sourceRoot&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;prefix&quot;</span><span class="token operator">:</span> <span class="token string">&quot;app&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;architect&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">&quot;builder&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@angular-builders/custom-webpack:browser&quot;</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;options&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;outputPath&quot;</span><span class="token operator">:</span> <span class="token string">&quot;dist/angularRoot&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;index&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src/index.html&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;main&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src/main.ts&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;polyfills&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src/polyfills.ts&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;tsConfig&quot;</span><span class="token operator">:</span> <span class="token string">&quot;tsconfig.app.json&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;aot&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;assets&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;src/favicon.ico&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;src/assets&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;styles&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;src/styles.scss&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;customWebpackConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token property">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./custom-webpack.config.js&quot;</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;configurations&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;production&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token property">&quot;fileReplacements&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                  <span class="token property">&quot;replace&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src/environments/environment.ts&quot;</span><span class="token punctuation">,</span>
+                  <span class="token property">&quot;with&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src/environments/environment.prod.ts&quot;</span>
+                <span class="token punctuation">}</span>
+              <span class="token punctuation">]</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;optimization&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;outputHashing&quot;</span><span class="token operator">:</span> <span class="token string">&quot;all&quot;</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;sourceMap&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;extractCss&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;namedChunks&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;extractLicenses&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;vendorChunk&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;buildOptimizer&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+              <span class="token property">&quot;budgets&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                  <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;initial&quot;</span><span class="token punctuation">,</span>
+                  <span class="token property">&quot;maximumWarning&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2mb&quot;</span><span class="token punctuation">,</span>
+                  <span class="token property">&quot;maximumError&quot;</span><span class="token operator">:</span> <span class="token string">&quot;5mb&quot;</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                  <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;anyComponentStyle&quot;</span><span class="token punctuation">,</span>
+                  <span class="token property">&quot;maximumWarning&quot;</span><span class="token operator">:</span> <span class="token string">&quot;6kb&quot;</span><span class="token punctuation">,</span>
+                  <span class="token property">&quot;maximumError&quot;</span><span class="token operator">:</span> <span class="token string">&quot;10kb&quot;</span>
+                <span class="token punctuation">}</span>
+              <span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;serve&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">&quot;builder&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@angular-builders/custom-webpack:dev-server&quot;</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;options&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;browserTarget&quot;</span><span class="token operator">:</span> <span class="token string">&quot;angularRoot:build&quot;</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;configurations&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;production&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token property">&quot;browserTarget&quot;</span><span class="token operator">:</span> <span class="token string">&quot;angularRoot:build:production&quot;</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;extract-i18n&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">&quot;builder&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@angular-devkit/build-angular:extract-i18n&quot;</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;options&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;browserTarget&quot;</span><span class="token operator">:</span> <span class="token string">&quot;angularRoot:build&quot;</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">&quot;builder&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@angular-devkit/build-angular:karma&quot;</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;options&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;main&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src/test.ts&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;polyfills&quot;</span><span class="token operator">:</span> <span class="token string">&quot;src/polyfills.ts&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;tsConfig&quot;</span><span class="token operator">:</span> <span class="token string">&quot;tsconfig.spec.json&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;karmaConfig&quot;</span><span class="token operator">:</span> <span class="token string">&quot;karma.conf.js&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;assets&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;src/favicon.ico&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;src/assets&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;styles&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;src/styles.scss&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;lint&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">&quot;builder&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@angular-devkit/build-angular:tslint&quot;</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;options&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;tsConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+              <span class="token string">&quot;tsconfig.app.json&quot;</span><span class="token punctuation">,</span>
+              <span class="token string">&quot;tsconfig.spec.json&quot;</span><span class="token punctuation">,</span>
+              <span class="token string">&quot;e2e/tsconfig.json&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;exclude&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;**/node_modules/**&quot;</span><span class="token punctuation">]</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;e2e&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">&quot;builder&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@angular-devkit/build-angular:protractor&quot;</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;options&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;protractorConfig&quot;</span><span class="token operator">:</span> <span class="token string">&quot;e2e/protractor.conf.js&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;devServerTarget&quot;</span><span class="token operator">:</span> <span class="token string">&quot;angularRoot:serve&quot;</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token property">&quot;configurations&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;production&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token property">&quot;devServerTarget&quot;</span><span class="token operator">:</span> <span class="token string">&quot;angularRoot:serve:production&quot;</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;defaultProject&quot;</span><span class="token operator">:</span> <span class="token string">&quot;angular&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><blockquote><p>If you get some console errors。 Searching for information, it seems to be a hot update <code>bug</code>. I won't explain too much here, a simple brute force solution: <code>Do not use hot update as a sub-application</code>.</p></blockquote> <ul><li><code>package.json</code> =&gt; <code>script</code> Add the following commands:</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token string-property property">&quot;serve:qiankun&quot;</span><span class="token operator">:</span> <span class="token string">&quot;ng serve --disable-host-check --port 8006 --base-href /angular --live-reload false&quot;</span>
+</code></pre></div><blockquote><p>Use as a micro application: <code>ng serve:qiankuan</code> to start loading</p></blockquote> <blockquote><p>Build error: Modify the tsconfig.json file</p></blockquote> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;compileOnSave&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;compilerOptions&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;baseUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;outDir&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./dist/out-tsc&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;sourceMap&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;declaration&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;downlevelIteration&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;experimentalDecorators&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;module&quot;</span><span class="token operator">:</span> <span class="token string">&quot;esnext&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;moduleResolution&quot;</span><span class="token operator">:</span> <span class="token string">&quot;node&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;importHelpers&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;target&quot;</span><span class="token operator">:</span> <span class="token string">&quot;es5&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;typeRoots&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;node_modules/@types&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;lib&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;es2018&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;dom&quot;</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;angularCompilerOptions&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;fullTemplateTypeCheck&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;strictInjectionParameters&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="4"><li>Check the loading effect</li></ol> <p><img src="/assets/img/2022-05-16-00-08-24.611eb72b.png" alt="angular"></p> <h2 id="communication-mechanism-between-sub-applications"><a href="#communication-mechanism-between-sub-applications" class="header-anchor">#</a> Communication mechanism between sub-applications</h2> <blockquote><p>Here is a simple example: log in to the main application to get the user <code>id</code>, when loading the micro application, the micro application needs to display different data or display different pages according to different user <code>id</code>. At this time, it is necessary to pass the corresponding user <code>id</code> from the main application to the micro application. There are three ways to pass value:</p></blockquote> <ul><li>Direct <code>props</code> to pass the value when mounting the micro application</li> <li><code>initGlobalState</code> with define global state</li> <li>Define a global state pool</li></ul> <h3 id="props-pass-by-value"><a href="#props-pass-by-value" class="header-anchor">#</a> props pass by value</h3> <blockquote><p>When registering the basic information of the micro-application, add <code>props</code> and pass in the information required by the micro-application</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'vue2'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">'http://localhost:8001'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">container</span><span class="token operator">:</span> <span class="token string">'#subContainer'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">activeRule</span><span class="token operator">:</span> <span class="token string">'/vue2'</span><span class="token punctuation">,</span>
+    <span class="token comment">//props</span>
+    <span class="token literal-property property">props</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">'props, Basic pass-by-value method'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    loader<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><blockquote><p>Acquired <code>props</code> in the microapp on the <code>mount</code> lifecycle</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;value from main-app===&quot;</span><span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">render</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="initglobalstate-recommended"><a href="#initglobalstate-recommended" class="header-anchor">#</a> initGlobalState (recommended)</h3> <blockquote><p>Define the global state and return the communication method. It is recommended to use it in the main application, and the micro application obtains the communication method through props.</p></blockquote> <ol><li>Declare global state in the main application</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// global state</span>
+<span class="token keyword">const</span> state <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">&quot;main_application&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token literal-property property">actions</span><span class="token operator">:</span> MicroAppStateActions <span class="token operator">=</span> <span class="token function">initGlobalState</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+actions<span class="token punctuation">.</span><span class="token function">onGlobalStateChange</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">state<span class="token punctuation">,</span> prev</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// state: the state after the change; prev the state before the change</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;state====&quot;</span><span class="token punctuation">,</span> state<span class="token punctuation">,</span> <span class="token string">&quot;prev====&quot;</span><span class="token punctuation">,</span> prev<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+actions<span class="token punctuation">.</span><span class="token function">setGlobalState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">&quot;main_app&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="2"><li>Micro-apps get data, also in the <code>mount</code> life cycle</li></ol> <blockquote><p>Define a <code>storeTest</code> method for unified invocation</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">storeTest</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Add a timer for the demonstration effect</span>
+  <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    props<span class="token punctuation">.</span>setGlobalState <span class="token operator">&amp;&amp;</span>
+      props<span class="token punctuation">.</span><span class="token function">setGlobalState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">_sub_application</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">3000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  props<span class="token punctuation">.</span>onGlobalStateChange <span class="token operator">&amp;&amp;</span>
+    props<span class="token punctuation">.</span><span class="token function">onGlobalStateChange</span><span class="token punctuation">(</span>
+      <span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">[onGlobalStateChange - </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">]:</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> value<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token boolean">true</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;value from main-app===&quot;</span><span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">storeTest</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">render</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>To sum up</li></ol> <ul><li><code>initGlobalState</code> initial <code>state</code></li> <li><code>onGlobalStateChange</code> Monitor state changes</li> <li><code>setGlobalState</code> Modify status</li> <li><code>offGlobalStateChange</code> remove monitor</li></ul> <ol start="4"><li>question
+<blockquote><p>What should I do if I want to modify the global state within a page of the microapp? Of course, you can mount the methods in <code>props</code> to the global of the current application. E.g:</p></blockquote></li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">storeTest</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">render</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// Mount to the global instance</span>
+  instance<span class="token punctuation">.</span>config<span class="token punctuation">.</span>globalProperties<span class="token punctuation">.</span>$onGlobalStateChange <span class="token operator">=</span>
+    props<span class="token punctuation">.</span>onGlobalStateChange<span class="token punctuation">;</span>
+  instance<span class="token punctuation">.</span>config<span class="token punctuation">.</span>globalProperties<span class="token punctuation">.</span>$setGlobalState <span class="token operator">=</span> props<span class="token punctuation">.</span>setGlobalState<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="define-a-global-state-pool"><a href="#define-a-global-state-pool" class="header-anchor">#</a> Define a global state pool</h3> <blockquote><p>Defining the global state pool is to define the global state in the main application, which can be defined using <code>redux</code> <code>vuex</code>, and so on. After defining the global state, you can define a global class and declare two methods in the class, one is used to obtain the global state, and the other is used to modify the global state. After the definition is complete, the class is passed in through the first <code>props</code> value-passing method, and the micro-application receives it through <code>mount</code>=&gt;<code>props</code>. This method will not be demonstrated, and I personally recommend using the second method.</p></blockquote> <h2 id="summary"><a href="#summary" class="header-anchor">#</a> Summary</h2> <blockquote><p>The micro-frontend construction based on <code>qiankun</code> is basically completed. This article is only for qiankun from 0 to the construction process encountered problems and solve problems</p></blockquote> <p>In summary，If there is micro frontend applications scenario，I recommend that the team choose qiankun.</p> <ul><li><p><strong>Simple</strong></p> <blockquote><p>Works with any javascript framework. Build your micro-frontend system just like using with iframe, but not iframe actually.</p></blockquote></li> <li><p><strong>Complete</strong></p> <blockquote><p>Includes almost all the basic capabilities required to build a micro-frontend system, such as style isolation, js sandbox, preloading, and so on.</p></blockquote></li> <li><p><strong>Production-Ready</strong></p> <blockquote><p>Had been extensively tested and polished by a large number of online applications both inside and outside of Ant Financial, the robustness is trustworthy.</p></blockquote></li></ul> <p>So in fact, It's really probably the most complete micro-frontends solution I've ever met.</p> <h2 id="source-code"><a href="#source-code" class="header-anchor">#</a> Source Code</h2> <p><a href="https://github.com/keeperdog/autodesk" target="_blank" rel="noopener noreferrer">https://github.com/keeperdog/autodesk<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">5/16/2022, 11:33:17 AM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.974bbb8d.js" defer></script><script src="/assets/js/2.a0983b4d.js" defer></script><script src="/assets/js/1.ec3ba048.js" defer></script><script src="/assets/js/14.69ac9b86.js" defer></script>
+  </body>
+</html>
