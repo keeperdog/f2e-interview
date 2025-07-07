@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Micro Frontend - qiankun",
+  title: "keeperdog",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -36,32 +36,53 @@ module.exports = {
     editLinkText: "",
     lastUpdated: true,
     displayAllHeaders: true,
-    logo:
-      "https://gw.alipayobjects.com/zos/bmw-prod/8a74c1d3-16f3-4719-be63-15e467a68a24/km0cv8vn_w500_h500.png",
+    logo: "/2.jpeg",
     nav: [
-      // {
-      //   text: "大前端",
-      //   link: "/guide/",
-      // },
       {
-        text: "Micro Frontend",
+        text: "Frontend",
+        link: "/guide/",
+      },
+      {
+        text: "Speech",
         link: "/autodesk/",
       },
-      // {
-      //   text: "Config",
-      //   link: "/config/",
-      // },
-      // {
-      //   text: "VuePress",
-      //   link: "https://v1.vuepress.vuejs.org",
-      // },
+      {
+        text: "Profile",
+        link: "/profile/",
+      },
+      {
+        text: "LLM",
+        link: "/llm/",
+      },
+      {
+        text: "Config",
+        link: "/config/",
+      },
+      {
+        text: "VuePress",
+        link: "https://v1.vuepress.vuejs.org",
+      },
     ],
     sidebar: {
+      "/profile/": [
+        {
+          title: "Profiles",
+          collapsable: false,
+          children: ["", "english"],
+        },
+      ],
+      "/llm/": [
+        {
+          title: "LLM",
+          collapsable: false,
+          children: ["", "langchain"],
+        },
+      ],
       "/autodesk/": [
         {
-          title: "目录",
+          title: "Qiankun",
           collapsable: false,
-          children: ["", "micro-frontend"],
+          children: ["micro-frontend"],
         },
       ],
       "/guide/": [

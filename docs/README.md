@@ -1,15 +1,16 @@
 ---
 home: true
-heroImage: https://gw.alipayobjects.com/zos/bmw-prod/8a74c1d3-16f3-4719-be63-15e467a68a24/km0cv8vn_w500_h500.png
-tagline:
+heroImage: /2.jpeg
+heroText: keeperdog
+tagline: "探索技术 | 分享思考 | 记录成长" # 个人简介标语
 actionText: Quick Start →
-actionLink: /autodesk/
+actionLink: /guide/
 features:
-  - title: Simple
-    details:
-  - title: Complete
-    details:
-  - title: Production-Ready
-    details:
-footer: Made by keeperdog with ❤️
+  - title: 技术探索
+    # details: 分享前端开发、工程化实践等技术心得与实战经验
+  - title: 知识沉淀
+    # details: 记录学习笔记、技术总结和行业洞察，构建个人知识体系
+  - title: 项目展示
+    # details: 展示个人开源项目、实战案例和创意作品，分享开发思路
+footer: Made by kongd with ❤️
 ---
