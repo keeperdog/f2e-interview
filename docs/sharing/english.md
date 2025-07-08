@@ -1,6 +1,4 @@
-# 介绍
-
-Some English snippets
+# English Snippets
 
 ## 开场白
 

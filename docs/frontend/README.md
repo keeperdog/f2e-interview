@@ -6,22 +6,22 @@
 
 **原型链**：原因是每个对象都有 **proto** 属性，此属性指向该对象的构造函数的原型。对象可以通过 **proto** 与上游的构造函数的原型对象连接起来，⽽上游的原型对象也有⼀个 **proto** ，这样就形成 了原型链。
 
-**判断构造函数与实例关系** instanceof操作符和isPrototypeOf()方法  
+**判断构造函数与实例关系** instanceof 操作符和 isPrototypeOf()方法
 
-- instanceof操作符左侧是一个普通对象，右侧是一个函数。eg: o instanceof Foo，instanceof关键字做的事情是：判断o的原型链上是否有Foo.prototype指向的对象。
-- isPrototypeOf()不关心构造函数，它只需要一个可以用来判断的对象就行。以Foo.prototype.isPrototypeOf(o)为例，isPrototypeOf()做的事情是：判断在a的原型链中是否出现过Foo.prototype
+- instanceof 操作符左侧是一个普通对象，右侧是一个函数。eg: o instanceof Foo，instanceof 关键字做的事情是：判断 o 的原型链上是否有 Foo.prototype 指向的对象。
+- isPrototypeOf()不关心构造函数，它只需要一个可以用来判断的对象就行。以 Foo.prototype.isPrototypeOf(o)为例，isPrototypeOf()做的事情是：判断在 a 的原型链中是否出现过 Foo.prototype
 
-**new过程**：  
-1、创建一个细新的javaScript对象（即 {} ）  
-2、为步骤1新创建的对象添加属性proto ，将该属性链接至构造函数的原型对象  
-3、将this指向这个新对象  
+**new 过程**：  
+1、创建一个细新的 javaScript 对象（即 {} ）  
+2、为步骤 1 新创建的对象添加属性 proto ，将该属性链接至构造函数的原型对象  
+3、将 this 指向这个新对象
 4、执行构造函数内部的代码（例如给新对象添加属性）  
 5、如果构造函数返回非空对象，则返回该对象，否则返回刚创建的新对象。
- ::: tip
- 构造函数必须返回对象，否则报错
- :::
+::: tip
+构造函数必须返回对象，否则报错
+:::
 
- ```js
+```js
 function _new(/* 构造函数 */ constructor, /* 构造函数参数 */ params) {
   // 将 arguments 对象转为数组
   var args = [].slice.call(arguments);
@@ -32,35 +32,35 @@ function _new(/* 构造函数 */ constructor, /* 构造函数参数 */ params) {
   // 执行构造函数
   var result = constructor.apply(context, args);
   // 如果返回结果是对象，就直接返回，否则返回 context 对象
-  return typeof result === 'object' && result != null ? result : context;
+  return typeof result === "object" && result != null ? result : context;
 }
- ```
+```
 
 ## 谈谈你对作用域的理解
 
 **作用域**： 是在运行时代码中的某些特定部分中变量，函数和对象的可访问性。换句话说，作用域决定了代码区块中变量和其他资源的可见性（即可达性）。  
-    简单的说作用域就是一个独立的地盘，让变量不会外泄、暴露出去。也就是说作用域最大的用处就是隔离变量，不同作用域下同名变量不会有冲突  
-    es6之前有 全局作用域和函数作用域，es6之后有块级作用域(let/const)  
+ 简单的说作用域就是一个独立的地盘，让变量不会外泄、暴露出去。也就是说作用域最大的用处就是隔离变量，不同作用域下同名变量不会有冲突  
+ es6 之前有 全局作用域和函数作用域，es6 之后有块级作用域(let/const)  
 ::: tip  
-    作用域是分层的，内层作用域可以访问外层作用域的变量，反之则不行  
+ 作用域是分层的，内层作用域可以访问外层作用域的变量，反之则不行  
 :::  
 **自由变量**:当前作用域没有定义的变量  
 **作用域链**: 当前作用域没找打，一层一层向上寻找，直到找到全局作用域还是没找到，就宣布放弃。这种一层一层的关系就是 作用域链  
-**自由变量的取值**： 要到"创建这个函数的那个域" -> 作用域中取值,这里强调的是“创建”，而不是“调用”**，切记切记——其实这就是所谓的"静态作用域"
+**自由变量的取值**： 要到"创建这个函数的那个域" -> 作用域中取值,这里强调的是“创建”，而不是“调用”\*\*，切记切记——其实这就是所谓的"静态作用域"
 
-## javascript执行阶段
+## javascript 执行阶段
 
 1、解释阶段：  
-    词法分析、
-    语法分析、
-    作用域规则确定  
+ 词法分析、
+语法分析、
+作用域规则确定  
 2、执行阶段：  
-    创建执行上下文、
-    执行函数代码、
-    垃圾回收  
+ 创建执行上下文、
+执行函数代码、
+垃圾回收  
 ::: tip  
-    执行上下文在运行时确定，随时可能改变；作用域在定义时就确定，并且不会改变  
-    一个作用域下可能包含若干个上下文环境。有可能从来没有过上下文环境（函数从来就没有被调用过）；有可能有过，现在函数被调用完毕后，上下文环境被销毁了；有可能同时存在一个或多个（闭包）。同一个作用域下，不同的调用会产生不同的执行上下文环境，继而产生不同的变量的值  
+ 执行上下文在运行时确定，随时可能改变；作用域在定义时就确定，并且不会改变  
+ 一个作用域下可能包含若干个上下文环境。有可能从来没有过上下文环境（函数从来就没有被调用过）；有可能有过，现在函数被调用完毕后，上下文环境被销毁了；有可能同时存在一个或多个（闭包）。同一个作用域下，不同的调用会产生不同的执行上下文环境，继而产生不同的变量的值  
 :::
 
 ## 谈谈你对闭包的理解？
@@ -70,43 +70,44 @@ function _new(/* 构造函数 */ constructor, /* 构造函数参数 */ params) {
 **个人理解**：闭包 =『函数』和『函数体内可访问的变量总和』
 
 ```js
-(function() {
-    var a = 1;
-    function add() {
-        var b = 2
+(function () {
+  var a = 1;
+  function add() {
+    var b = 2;
 
-        var sum = b + a
-        console.log(sum); // 3
-    }
-    add()
-})()
+    var sum = b + a;
+    console.log(sum); // 3
+  }
+  add();
+})();
 ```
+
 **闭包的作用**:  
 闭包最大的作用就是隐藏变量，闭包的一大特性就是内部函数总是可以访问其所在的外部函数中声明的参数和变量，即使在其外部函数被返回（寿命终结）了之后
 
-基于此特性，JavaScript可以实现私有变量、特权变量、储存变量、React Hooks
+基于此特性，JavaScript 可以实现私有变量、特权变量、储存变量、React Hooks
 
-我们就以私有变量举例，私有变量的实现方法很多，有靠约定的（变量名前加_）,有靠Proxy代理的，也有靠Symbol这种新数据类型的。
+我们就以私有变量举例，私有变量的实现方法很多，有靠约定的（变量名前加\_）,有靠 Proxy 代理的，也有靠 Symbol 这种新数据类型的。
 
 但是真正广泛流行的其实是使用闭包。
+
 ```js
-function Person(){
-    var name = 'cxk';
-    this.getName = function(){
-        return name;
-    }
-    this.setName = function(value){
-        name = value;
-    }
+function Person() {
+  var name = "cxk";
+  this.getName = function () {
+    return name;
+  };
+  this.setName = function (value) {
+    name = value;
+  };
 }
 
-const cxk = new Person()
+const cxk = new Person();
 
-console.log(cxk.getName()) //cxk
-cxk.setName('jntm')
-console.log(cxk.getName()) //jntm
-console.log(name) //name is not defined
-
+console.log(cxk.getName()); //cxk
+cxk.setName("jntm");
+console.log(cxk.getName()); //jntm
+console.log(name); //name is not defined
 ```
 
 ## 前端有⼏种储存的⽅式？
@@ -141,11 +142,11 @@ TODO：
 **原理**  
 其实很简单，就是找出那些不再继续使用的值，然后释放其占用的内存。垃圾收集器会每隔固定的时间段就执行一次释放操作。
 
-V8引擎对堆内存中的JAVASCRIPT对象基于时代假说机制进行分代管理。
+V8 引擎对堆内存中的 JAVASCRIPT 对象基于时代假说机制进行分代管理。
 
 这个假说有两个特点，一个是 新生的对象容易早死，另一个是 不死的对象会活得更久。
 
-新生代：新生代即存活周期较短的JAVASCRIPT对象，如临时变量、字符串等
+新生代：新生代即存活周期较短的 JAVASCRIPT 对象，如临时变量、字符串等
 
 老生代：老生代则为经过多次垃圾回收仍然存活，存活周期较长的对象，如主控制器、服务器对象等。
 
@@ -154,6 +155,6 @@ V8引擎对堆内存中的JAVASCRIPT对象基于时代假说机制进行分代�
 引用计数法  
 标记清除算法
 
-## 1px像素问题
+## 1px 像素问题
 
 todo

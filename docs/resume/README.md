@@ -14,7 +14,7 @@ Team Leader / Developer
 
 - 熟练掌握 JavaScript、CSS、HTML，可脱离框架独立进行复杂项目开发；
 - 熟练掌握 React、Vue 等前端框架及相关全家桶技术栈，有基于全家桶构建通用前端框架的经验；
-- 熟悉前端组件库设计，主导设计过前端跨业务组件库和基于 Koa2 的 BFF（Backend For Frontend）架构；
+- 熟悉组件库设计，主导设计过前端跨业务组件库和基于 Koa2 的 BFF（Backend For Frontend）架构；
 - 熟练掌握 TypeScript，有丰富的强类型编程经验及小程序移动跨端编程经验；
 - 熟悉前端性能优化，具备前端命令行构建工具的编写经验；
 - 拥有框架开发经验，熟悉模块化、组件化、前端分层架构模型设计；

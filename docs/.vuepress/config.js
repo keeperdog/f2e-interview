@@ -40,11 +40,11 @@ module.exports = {
     nav: [
       {
         text: "Frontend",
-        link: "/guide/",
+        link: "/frontend/",
       },
       {
         text: "Sharing",
-        link: "/autodesk/",
+        link: "/sharing/",
       },
       {
         text: "Resume",
@@ -54,43 +54,22 @@ module.exports = {
         text: "LLM",
         link: "/llm/",
       },
-      {
-        text: "Config",
-        link: "/config/",
-      },
-      {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org",
-      },
+      // {
+      //   text: "Config",
+      //   link: "/config/",
+      // },
+      // {
+      //   text: "VuePress",
+      //   link: "https://v1.vuepress.vuejs.org",
+      // },
     ],
     sidebar: {
-      "/resume/": [
+      "/frontend/": [
         {
-          title: "Resume",
-          collapsable: false,
-          children: ["", "english"],
-        },
-      ],
-      "/llm/": [
-        {
-          title: "LLM",
-          collapsable: false,
-          children: ["", "langchain"],
-        },
-      ],
-      "/autodesk/": [
-        {
-          title: "目录",
-          collapsable: false,
-          children: ["micro-frontend", "english"],
-        },
-      ],
-      "/guide/": [
-        {
-          title: "目录",
+          title: "",
           collapsable: false,
           children: [
-            "java-script",
+            "",
             "react",
             "hld-design",
             "performance",
@@ -99,6 +78,28 @@ module.exports = {
             "security",
             "webpack",
           ],
+        },
+      ],
+      "/sharing/": [
+        {
+          title: "",
+          collapsable: false,
+          children: ["", "english"],
+        },
+      ],
+      "/resume/": [
+        {
+          title: "",
+          collapsable: false,
+          children: ["", "english"],
+        },
+      ],
+
+      "/llm/": [
+        {
+          title: "",
+          collapsable: false,
+          children: [""],
         },
       ],
     },
