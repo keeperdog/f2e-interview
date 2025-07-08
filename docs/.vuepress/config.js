@@ -54,6 +54,10 @@ module.exports = {
         text: "LLM",
         link: "/llm/",
       },
+      {
+        text: "Speech",
+        link: "/speech/",
+      },
       // {
       //   text: "Config",
       //   link: "/config/",
@@ -100,6 +104,13 @@ module.exports = {
           title: "",
           collapsable: false,
           children: [""],
+        },
+      ],
+      "/speech/": [
+        {
+          title: "",
+          collapsable: false,
+          children: ["", "ivanka", "taylor"],
         },
       ],
     },
