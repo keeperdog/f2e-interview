@@ -43,7 +43,7 @@ module.exports = {
         link: "/guide/",
       },
       {
-        text: "Speech",
+        text: "Sharing",
         link: "/autodesk/",
       },
       {
@@ -80,9 +80,9 @@ module.exports = {
       ],
       "/autodesk/": [
         {
-          title: "Qiankun",
+          title: "目录",
           collapsable: false,
-          children: ["micro-frontend"],
+          children: ["micro-frontend", "english"],
         },
       ],
       "/guide/": [
@@ -90,7 +90,6 @@ module.exports = {
           title: "目录",
           collapsable: false,
           children: [
-            "",
             "java-script",
             "react",
             "hld-design",
