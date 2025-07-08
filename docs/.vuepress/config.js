@@ -47,8 +47,8 @@ module.exports = {
         link: "/autodesk/",
       },
       {
-        text: "Profile",
-        link: "/profile/",
+        text: "Resume",
+        link: "/resume/",
       },
       {
         text: "LLM",
@@ -64,9 +64,9 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/profile/": [
+      "/resume/": [
         {
-          title: "Profiles",
+          title: "Resume",
           collapsable: false,
           children: ["", "english"],
         },
