@@ -43,16 +43,16 @@ module.exports = {
         link: "/frontend/",
       },
       {
-        text: "Sharing",
-        link: "/sharing/",
+        text: "LLM",
+        link: "/llm/",
       },
       {
         text: "Resume",
         link: "/resume/",
       },
       {
-        text: "LLM",
-        link: "/llm/",
+        text: "Sharing",
+        link: "/sharing/",
       },
       {
         text: "Speech",
@@ -84,11 +84,11 @@ module.exports = {
           ],
         },
       ],
-      "/sharing/": [
+      "/llm/": [
         {
           title: "",
           collapsable: false,
-          children: ["", "english"],
+          children: [""],
         },
       ],
       "/resume/": [
@@ -98,14 +98,14 @@ module.exports = {
           children: ["", "english"],
         },
       ],
-
-      "/llm/": [
+      "/sharing/": [
         {
           title: "",
           collapsable: false,
-          children: [""],
+          children: ["", "english"],
         },
       ],
+
       "/speech/": [
         {
           title: "",
