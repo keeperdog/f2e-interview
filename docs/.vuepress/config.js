@@ -88,7 +88,7 @@ module.exports = {
         {
           title: "",
           collapsable: false,
-          children: [""],
+          children: ["","llm_basic"],
         },
       ],
       "/resume/": [
