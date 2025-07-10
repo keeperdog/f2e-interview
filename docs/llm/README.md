@@ -56,6 +56,10 @@ python run/demo_rag_langchain_onlinellm.py
 ```
 ![snapshot](./images/2025-07-09-12-25-04.png)
 
+## RAG-LangChain 个人知识库助手
+
+TODO
+
 ## RAG-LlamaIndex 简单版本
 ```python
 # 基本组件
