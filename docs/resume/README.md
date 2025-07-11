@@ -19,7 +19,7 @@
 
 ## 求职意向
 
-Team Leader / Developer
+Team Leader / Developer（LLM应用工程师）
 
 ## 专业技能
 
