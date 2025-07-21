@@ -8,7 +8,7 @@
 
 ## Job Intention
 
-Developer / Team Leader
+Developer（AI） / Team Leader
 
 ## Professional Skills
 
@@ -30,10 +30,12 @@ Job Description:
 2. Control the project development process, code review, and solve the key technical problems in the iteration
 3. Front end technology selection, infrastructure construction, HLD design, document writing, standard sorting, scaffold development, performance and interaction optimization
 4. Responsible for supporting third-party client integration-Clients Support, such as Revit, Fusion, AutoCAD, etc.
+5. The technical support owner for Autodesk Fusion's integration with UDA is responsible for conducting research on Fusion's technical architecture and performing a Proof of Concept (POC) to facilitate the integration of UDA support
+6. Sprint Demo recording, component performance monitoring, and design and maintenance of data collection points.
 
 ### Gemdale Corporation | Tech Apartment | Team Leader & Developer
 
-**2019.12 - 2022.6**
+**2021.7 - 2022.6**
 Job Description:
 
 1. Decompose requirements, implement project design and development process, be responsible for outline design and detailed design, and participate in the R & D of core modules
@@ -44,7 +46,7 @@ Job Description:
 
 ### Ping An Insurance Company | Tech Apartment | Team Leader
 
-**2017.04 -2019.12**
+**2017.04 -2021.7**
 Job description:
 
 1. Responsible for front-end website development and architecture
