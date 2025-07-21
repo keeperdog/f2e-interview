@@ -41,7 +41,7 @@ Developer（AI应用开发工程师）/ Team Leader
 2. 代码质量审核（Code Review），解决迭代中的关键技术问题（高内存占用、rateLimit 请求限流）；
 3. 方案设计（HLD）、文档撰写、规范整理、方案评审，及性能与交互优化；
 4. 负责支持第三方客户端集成（Clients Support），如 Autodesk Forma(Spacemaker)、Revit、Fusion、AutoCAD 等；
-5. Autodesk Forma(Spacemaker) 集成UDA的技术支持Owner，对Forma的技术架构调研，做POC，以便于集成UDA支持。
+5. Autodesk Fusion集成UDA的技术支持Owner，对Fusion的技术架构调研，做POC，以便于集成UDA支持。
 5. Sprint Demo 录制，组件的性能监控和埋点设计与维护。
 
 ### 金地集团 | 金地科技研发部 | Team Leader(追随领导创业)
