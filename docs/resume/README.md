@@ -13,13 +13,13 @@
 - 花大钱买了辆红旗 🚗，能跑就行！轮子一转，哪儿都能去看看 👀。
 - 给头发 “返场” 种了发 🎤，新毛冒头，青春好像回来了，值 💪！
 - 背了几篇演讲，精度了[The old man and the sea](https://gutenbergcanada.ca/ebooks/hemingwaye-oldmanandthesea/hemingwaye-oldmanandthesea-00-h.html)，发现老外也琢磨 “咋活”，都是好经📖！
-- 自学LLM，梳理一些知识点，写了一些 [https://keeperdog.github.io/llm/](https://keeperdog.github.io/llm/).
-- 从头啃下了两个优秀的开源RAG项目：[Tianji](https://github.com/SocialAI-tianji/Tianji) & [个人知识库助手](https://github.com/logan-zou/Chat_with_Datawhale_langchain.git)
+- 自研学LLM，梳理一些知识点，写了一些 [https://keeperdog.github.io/llm/](https://keeperdog.github.io/llm/).
+- 精读了两个优秀的开源RAG项目：[Tianji](https://github.com/SocialAI-tianji/Tianji) & [个人知识库助手](https://github.com/logan-zou/Chat_with_Datawhale_langchain.git)
 - ...
 
 ## 求职意向
 
-Team Leader / Developer（LLM应用工程师）
+Developer（AI应用开发工程师）/ Team Leader
 
 ## 专业技能
 
@@ -37,15 +37,16 @@ Team Leader / Developer（LLM应用工程师）
 
 **2022.6 - 2025.4**
 
-1. 业务组件的开发与维护，担任 Data Provider、http-client 请求库包、Analytics（ADP）数据采集包的 owner；
+1. 业务组件的开发与维护，担任 Data Provider、http-client 请求库包、Analytics（ADP）数据采集包的 Owner；
 2. 代码质量审核（Code Review），解决迭代中的关键技术问题（高内存占用、rateLimit 请求限流）；
 3. 方案设计（HLD）、文档撰写、规范整理、方案评审，及性能与交互优化；
-4. 负责支持第三方客户端集成（Clients Support），如 Revit、Fusion、AutoCAD 等；
+4. 负责支持第三方客户端集成（Clients Support），如 Autodesk Forma(Spacemaker)、Revit、Fusion、AutoCAD 等；
+5. Autodesk Forma(Spacemaker) 集成UDA的技术支持Owner，对Forma的技术架构调研，做POC，以便于集成UDA支持。
 5. Sprint Demo 录制，组件的性能监控和埋点设计与维护。
 
-### 金地集团 | 金地科技研发部 | Team Leader
+### 金地集团 | 金地科技研发部 | Team Leader(追随领导创业)
 
-**2019.12 - 2022.6**
+**2021.7 - 2022.6**
 
 1. 需求分解，实施项目设计开发过程，负责概要设计、详细设计，参与核心模块研发；
 2. 兼任 Scrum Master，负责代码质量审核（Code Review），解决迭代中的关键技术问题；
@@ -55,7 +56,7 @@ Team Leader / Developer（LLM应用工程师）
 
 ### 中国平安保险(集团)股份有限公司 | 地产云事业部 | Team Leader
 
-**2017.04 - 2019.12**
+**2017.04 - 2021.7**
 
 1. 日常敏捷开发和架构工作，开发维护命令行模板 NPM 工具类包；
 2. 负责面向部门业务的高度定制化组件库的日常维护与开发；
