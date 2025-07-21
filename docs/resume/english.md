@@ -35,7 +35,7 @@ Job Description:
 
 ### Gemdale Corporation | Tech Apartment | Team Leader & Developer
 
-**2021.7 - 2022.6**
+**2019.12 - 2022.6**
 Job Description:
 
 1. Decompose requirements, implement project design and development process, be responsible for outline design and detailed design, and participate in the R & D of core modules
@@ -46,7 +46,7 @@ Job Description:
 
 ### Ping An Insurance Company | Tech Apartment | Team Leader
 
-**2017.04 -2021.7**
+**2017.04 -2019.12**
 Job description:
 
 1. Responsible for front-end website development and architecture
