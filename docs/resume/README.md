@@ -3,19 +3,19 @@
 - 性别: 男 | 已婚 | 本科
 - 联系方式: 18715217985
 - 邮箱: loveasheng@foxmail.com
-- 目前职位: SWD & Scrum Master
+- 职位: SWD & Scrum Master
 - 职场: 上海
 
-## 最新动态
+<!-- ## 最新动态 -->
 
-**2025.4 - 至今**
+<!-- **2025.4 - 至今**
 
 - 花大钱买了辆红旗 🚗，能跑就行！轮子一转，哪儿都能去看看 👀。
 - 给头发 “返场” 种了发 🎤，新毛冒头，青春好像回来了，值 💪！
 - 背了几篇演讲，精度了[The old man and the sea](https://gutenbergcanada.ca/ebooks/hemingwaye-oldmanandthesea/hemingwaye-oldmanandthesea-00-h.html)，发现老外也琢磨 “咋活”，都是好经📖！
 - 自研学LLM，梳理一些知识点，写了一些 [https://keeperdog.github.io/llm/](https://keeperdog.github.io/llm/).
 - 精读了两个优秀的开源RAG项目：[Tianji](https://github.com/SocialAI-tianji/Tianji) & [个人知识库助手](https://github.com/logan-zou/Chat_with_Datawhale_langchain.git)
-- ...
+- ... -->
 
 ## 求职意向
 
