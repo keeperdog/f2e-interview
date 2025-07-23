@@ -22,7 +22,7 @@
 Developer（AI应用开发工程师）/ Team Leader
 
 ## 专业技能
-
+- 自研学LLM，梳理一些知识点，写了一些 [Demo](https://keeperdog.github.io/llm/)
 - 熟练掌握 JavaScript、CSS、HTML，可脱离框架独立进行复杂项目开发；
 - 熟练掌握 React、Vue 等前端框架及相关全家桶技术栈，有基于全家桶构建通用前端框架的经验；
 - 熟悉组件库设计，主导设计过前端跨业务组件库和基于 Koa2 的 BFF（Backend For Frontend）架构；
