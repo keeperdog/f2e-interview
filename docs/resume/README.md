@@ -19,7 +19,7 @@
 
 ## 求职意向
 
-Developer（AI应用开发工程师）/ Team Leader
+Developer（AI应用开发工程师）/ TPM
 
 ## 专业技能
 - 自学LLM相关知识 [Knowledge](https://keeperdog.github.io/llm/)，实践了大语言模型的基础原理与应用技术；
