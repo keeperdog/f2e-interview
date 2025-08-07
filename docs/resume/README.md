@@ -22,14 +22,12 @@
 Developer（AI应用开发工程师）/ Team Leader
 
 ## 专业技能
-- 自研学LLM，梳理一些知识点，写了一些 [Demo](https://keeperdog.github.io/llm/)
-- 熟练掌握 JavaScript、CSS、HTML，可脱离框架独立进行复杂项目开发；
-- 熟练掌握 React、Vue 等前端框架及相关全家桶技术栈，有基于全家桶构建通用前端框架的经验；
-- 熟悉组件库设计，主导设计过前端跨业务组件库和基于 Koa2 的 BFF（Backend For Frontend）架构；
-- 熟练掌握 TypeScript，有丰富的强类型编程经验及小程序移动跨端编程经验；
-- 熟悉前端性能优化，具备前端命令行构建工具的编写经验；
-- 拥有框架开发经验，熟悉模块化、组件化、前端分层架构模型设计；
-- 拥有团队管理经验，擅长前沿技术调研、技术分享、时间管理、需求分析、任务分解及人才梯队建设。
+- 自学LLM相关知识 [Knowledge](https://keeperdog.github.io/llm/)，实践了大语言模型的基础原理与应用技术；
+- 学习 Tianji 项目等开源应用，Prompt & Context 工程、RAG workflow、Agent 开发及模型微调等技术；
+- 熟练掌握JavaScript、CSS、HTML，可以脱离框架独立进行复杂项目的开发；
+- 熟练掌握React、Vue等前端框架以及相关的全家桶技术栈，有基于全家桶构建通用前端框架的经验；
+- 熟悉前端组件库设计，有主导设计过前端跨业务组件库和基于Koa2的BFF(Backend For Frontend)架构经验；
+- 拥有团队管理经验，擅长前沿技术调研、技术分享、时间管理、需求分析、任务分解及人才梯队建设；
 
 ## 工作经历
 
@@ -73,27 +71,31 @@ Developer（AI应用开发工程师）/ Team Leader
 
 ## 项目经验
 
-### 项目名称：UDA（Universal Data Access）
+### 项目名称：Tianji（天机）LLM应用开发学习
 
-**项目描述**：一套基于统一用户体验（UX）、通用且公共的 Web 业务组件库。
+**项目描述**：
+- 专注于传统人情场景的大语言模型应用，涵盖 Prompt 工程、RAG 知识库、Agent、模型微调等功能，支持多种大语言模型调用，提供 LLM 开发入门实践案例；
+- 参考QAnything企业级本地知识库问答及Datawhale个人知识库助手项目
 
 **责任描述**：
 
-1. 开发 Recent（最近文件列表组件）、HubNavigation（Hub 下拉菜单组件）、ProjectNavigation（项目/文件夹树形视图组件）；
-2. 开发 FileFolderNavigation（文件/文件夹列表组件）、SearchResult（搜索结果列表组件）；
-3. 开发 WorkspaceNavigation（AppHome 复合组件，集成多个内部组件并提供典型布局）；
-4. 开发 CloudDataPicker（文件选择对话框复合组件，支持多种工作流程）；
-5. 开发 UDA UI Components（可复用的 React UI 组件）；
-6. 编写文档与示例，实现交互式文档（如 Storybook），为每个组件提供基础与高级用例。
+作为独立开发者（AI 应用工程师方向自学），总结及Demo：https://keeperdog.github.io/llm/；
+1. 系统研习大语言模型基础原理与应用技术，掌握基于 LangChain、LlamaIndex 的RAG知识库构建逻辑及 Metagpt 框架的 Agent 开发方法；
+2. 搭建基于 Milvus、FAISS、Chroma 等向量数据库的文档知识检索系统，实现高效知识匹配准许性与召回；
+3. 实践 ReAct、CoT、ToT 等典型推理范式，完成 Prompt 工程与Context 设计并落地相关功能；
+4. 从零复现 Tianji 项目全流程，深入理解模型架构、数据预处理、训练流程及推理部署等核心模块；
+5. 剖析项目源码，撰写学习笔记与技术总结文档，梳理情感分析、对话生成、模型优化等关键技术要点；
+6. 运用 Gradio、Streamlit 等工具开发 AI 应用前端，完成本地部署及多场景模拟测试；
+7. 构建 AI 应用开发知识体系，具备初步的模型理解与工程实现能力，为参与实际项目奠定基础；
+
+总结及Demo：https://keeperdog.github.io/llm/
 
 **项目难点**：
 
-1. 测试与质量保证：通过 Pipeline 确保单元测试、集成测试、e2e 测试覆盖率 ≥90%；
-2. 版本管理与兼容性：避免引入 breaking change，确保向下兼容；
-3. 组件性能监控和埋点：集成 ADP SDK 并提供公共接口，兼容 client 端 Analytics 实例；
-4. 客户端集成支持：熟悉 Revit、Fusion、AutoCAD 等，预集成定位潜在风险。
+1. 从前端领域转型 AI 应用开发时，需攻克 pre-training、RLHF、embedding 模型、re-ranking模型、向量数据库、RAG、Function Calling、CoT 等陌生概念的理解难关；
+2. 很难掌握 LLM 调优技巧，LoRA、P-Tuning 等模型微调技术难点，Transformers、Xtuner 框架下 Lora 与全量微调的实现逻辑，硬件资源限制；
 
-**相关技术**：React + Redux + Lerna + RTKQuery + CSS-IN-JS + Hooks + MUI
+**相关技术**：LangChain + LlamaIndex + Metagpt + Transformers + Xtuner + LLM 模型调用（ChatGPT、ZhipuAI、Qwen、等）+ Hugging Face + ModelScope
 
 ### 项目名称：天工云筑
 
