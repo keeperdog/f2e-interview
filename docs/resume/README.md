@@ -19,14 +19,15 @@
 
 ## 求职意向
 
-Developer（AI应用开发工程师）/ TPM
+软件开发工程师 / 技术合伙人（外包勿扰！！！）
 
 ## 专业技能
-- 自学LLM相关知识 [Knowledge](https://keeperdog.github.io/llm/)，实践了大语言模型的基础原理与应用技术；
-- 学习 Tianji 项目等开源应用，Prompt & Context 工程、RAG workflow、Agent 开发及模型微调等技术；
-- 熟练掌握JavaScript、CSS、HTML，可以脱离框架独立进行复杂项目的开发；
-- 熟练掌握React、Vue等前端框架以及相关的全家桶技术栈，有基于全家桶构建通用前端框架的经验；
-- 熟悉前端组件库设计，有主导设计过前端跨业务组件库和基于Koa2的BFF(Backend For Frontend)架构经验；
+
+- 熟练 AIGC 应用开发，Prompt & Context 工程、RAG workflow、Agent 、MCP 开发及模型微调等技术；
+- LLM 调优技巧，LoRA、P-Tuning 等模型微调，Transformers、Xtuner 框架下 Lora 与全量微调的实现；
+- 熟练掌握 JavaScript、Python 等，可以脱离框架独立进行复杂项目的开发；
+- 熟练掌握 React、Vue 等前端框架以及相关的全家桶技术栈，有基于全家桶构建通用前端框架的经验；
+- 熟悉前端组件库、微前端设计，有主导设计过前端跨业务组件库、基于 Koa2 的 BFF(Backend For Frontend)架构经验和基于 Qiankun 微前端架构设计；（传送门：https://keeperdog.github.io/sharing/#what-is-micro-frontend）
 - 拥有团队管理经验，擅长前沿技术调研、技术分享、时间管理、需求分析、任务分解及人才梯队建设；
 
 ## 工作经历
@@ -35,12 +36,10 @@ Developer（AI应用开发工程师）/ TPM
 
 **2022.6 - 2025.4**
 
-1. 业务组件的开发与维护，担任 Data Provider、http-client 请求库包、Analytics（ADP）数据采集包的 Owner；
-2. 代码质量审核（Code Review），解决迭代中的关键技术问题（高内存占用、rateLimit 请求限流）；
-3. 方案设计（HLD）、文档撰写、规范整理、方案评审，及性能与交互优化；
-4. 负责支持第三方客户端集成（Clients Support），如 Autodesk Forma(Spacemaker)、Revit、Fusion、AutoCAD 等；
-5. Autodesk Fusion集成UDA的技术支持Owner，对Fusion的技术架构调研，做POC，以便于集成UDA支持。
-5. Sprint Demo 录制，组件的性能监控和埋点设计与维护。
+1. 业务组件库开发与维护，担任 Data Provider, http-client 请求库包, Analytics(ADP)数据采集包的 owner；
+2. 代码质量审核 Code Review，组件的性能监控和埋点的设计，维护；
+3. 方案设计 HLD(High-Level Design)、文档撰写、规范整理、方案评审，以及性能与交互优化；
+4. Prompt & Context 工程、MCP 开发、RAG workflow 等本地知识库问答及应用；
 
 ### 金地集团 | 金地科技研发部 | Team Leader(追随领导创业)
 
@@ -71,29 +70,23 @@ Developer（AI应用开发工程师）/ TPM
 
 ## 项目经验
 
-### 项目名称：Tianji（天机）LLM应用开发学习
+### 项目名称：RAG 应用
 
 **项目描述**：
-- 专注于传统人情场景的大语言模型应用，涵盖 Prompt 工程、RAG 知识库、Agent、模型微调等功能，支持多种大语言模型调用，提供 LLM 开发入门实践案例；
-- 参考QAnything企业级本地知识库问答及Datawhale个人知识库助手项目
+
+- 专注于欧特克系产品文档知识库的大语言模型应用，涵盖 Prompt 工程、RAG 知识库、Agent、模型微调等功能，支持多种大语言模型调用，提供 AIGC 开发实践；
 
 **责任描述**：
 
-作为独立开发者（AI 应用工程师方向自学），总结及Demo：https://keeperdog.github.io/llm/；
-1. 系统研习大语言模型基础原理与应用技术，掌握基于 LangChain、LlamaIndex 的RAG知识库构建逻辑及 Metagpt 框架的 Agent 开发方法；
-2. 搭建基于 Milvus、FAISS、Chroma 等向量数据库的文档知识检索系统，实现高效知识匹配准许性与召回；
-3. 实践 ReAct、CoT、ToT 等典型推理范式，完成 Prompt 工程与Context 设计并落地相关功能；
-4. 从零复现 Tianji 项目全流程，深入理解模型架构、数据预处理、训练流程及推理部署等核心模块；
-5. 剖析项目源码，撰写学习笔记与技术总结文档，梳理情感分析、对话生成、模型优化等关键技术要点；
-6. 运用 Gradio、Streamlit 等工具开发 AI 应用前端，完成本地部署及多场景模拟测试；
-7. 构建 AI 应用开发知识体系，具备初步的模型理解与工程实现能力，为参与实际项目奠定基础；
+作为体验技术团队一员：
 
-总结及Demo：https://keeperdog.github.io/llm/
+1. 深耕大语言模型基础原理与应用技术落地，精通基于 LangChain、LlamaIndex 的 RAG 知识库全流程构建，熟练掌握 MetaGPT 框架的 Agent 开发及 MCP 开发等核心技术；
+2. 探索向量数据库全栈最佳实践，主导搭建基于 Milvus、FAISS、Chroma 等主流向量库的文档知识检索系统，实现知识匹配的高精准度与高召回率优化；
+3. 深入实践 ReAct、CoT、ToT 等经典推理范式，擅长 Prompt 工程设计与 Context 上下文优化，并完成多项核心功能的落地部署；
+4. 探索大模型全链路技术，在 pre-training、RLHF、embedding 模型、re-ranking 模型、向量数据库应用、RAG 检索增强、Function Calling、逻辑推理等领域均有扎实的项目实践；
+5. 熟练运用 Gradio、Streamlit 等工具快速开发 AI 应用，完成本地部署、多场景模拟测试及性能调优；
 
-**项目难点**：
-
-1. 从前端领域转型 AI 应用开发时，需攻克 pre-training、RLHF、embedding 模型、re-ranking模型、向量数据库、RAG、Function Calling、CoT 等陌生概念的理解难关；
-2. 很难掌握 LLM 调优技巧，LoRA、P-Tuning 等模型微调技术难点，Transformers、Xtuner 框架下 Lora 与全量微调的实现逻辑，硬件资源限制；
+总结及 Demo：https://keeperdog.github.io/llm/
 
 **相关技术**：LangChain + LlamaIndex + Metagpt + Transformers + Xtuner + LLM 模型调用（ChatGPT、ZhipuAI、Qwen、等）+ Hugging Face + ModelScope
 
